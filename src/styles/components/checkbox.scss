@@ -1,0 +1,33 @@
+@import "../variables.scss";
+
+.checkbox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 0.75rem;
+  align-items: center;
+
+  &__box {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 0.25rem;
+    border: 1px solid $grey100;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--checked {
+      background: $grey100;
+    }
+  }
+
+  &__label {
+    font-size: 0.875rem;
+    color: $grey100;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+  }
+}

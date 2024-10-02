@@ -1,0 +1,26 @@
+@import "../variables.scss";
+
+.button {
+  width: 100%;
+  appearance: none;
+  outline: none;
+  display: flex;
+  padding: 1.125rem 2.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 2.5rem;
+  background: $grey100;
+  cursor: pointer;
+
+  color: $white;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.4px;
+}
+
+.button--secondary {
+  background: #ff1c44;
+}
